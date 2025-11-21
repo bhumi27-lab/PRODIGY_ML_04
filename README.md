@@ -21,24 +21,27 @@ cd PRODIGY_ML_04
 1. Open the notebook (`notebook.ipynb`) in **Google Colab**
 2. Click: **Runtime → Change runtime type → GPU**
 3. Mount Google Drive inside the notebook
-4. Upload your dataset ZIP into Drive
-5. Run all cells step-by-step:
+4. Download the dataset from Kaggle:  
+   👉 **https://www.kaggle.com/datasets/gti-upm/leapgestrecog**
+5. Upload the dataset ZIP into Google Drive
+6. Run all cells step-by-step:
    - Dataset extraction  
    - Flattening script  
    - Train-test split  
    - ImageDataGenerator  
    - CNN model training  
    - Evaluation + predictions  
-6. The trained model will be saved as:
+7. The trained model will be saved as:
    ```
    Task4_gesture_model.h5
    ```
-7. You can download the model from Colab for further use.
+8. You can download the model from Colab for further use.
 
 ---
 
 ## 📂 Dataset Used
-- **LeapGestRecog Dataset**
+- **LeapGestRecog Dataset from Kaggle**  
+  🔗 https://www.kaggle.com/datasets/gti-upm/leapgestrecog  
 - Contains images of **10 gesture classes (00–09)**
 - Dataset was:
   - Flattened (merged subject folders)
@@ -83,8 +86,7 @@ cd PRODIGY_ML_04
 ---
 
 ## 🗃 Files in This Repository
-- `notebook.ipynb` — Full Google Colab code  
-- `Task4_gesture_model.h5` — Saved trained model  
+- `notebook.ipynb` — Full Google Colab code   
 - `requirements.txt` — All dependencies  
 - `README.md` — Project overview  
 
